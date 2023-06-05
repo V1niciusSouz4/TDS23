@@ -21,11 +21,11 @@ DECLARE @nomeAmericano VARCHAR(15)
 SET @nomeAmericano = 'João da Silva'
 
 DECLARE @celsius DECIMAL
-SET @celsius = 12.34
+SET @celsius = 18.00
 
 DECLARE @fahrenheit DECIMAL
 SET @fahrenheit = (@celsius * 1.8) + 32
 
 PRINT 'Olá, meu nome é ' + @nomeAmericano + 
 ' e aqui nos EUA está fazendo ' + 
-CAST(@fahrenheit as varchar(10)) + ' graus fahrenheit'
+CAST(@fahrenheit as varchar(10)) + ' graus fahrenheit '
