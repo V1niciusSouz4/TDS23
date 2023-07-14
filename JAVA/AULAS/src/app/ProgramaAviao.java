@@ -43,7 +43,6 @@ public class ProgramaAviao {
 		System.out.println("Velocidade atual: "+t1.getVelocidade()+" km/h");
 		}
 		t1.desligar();
-		
 	}
 	
 }
